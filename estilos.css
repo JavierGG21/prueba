@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f1f3f6;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#lista-pokemon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tarjeta img { width: 120px; }
+
+.tarjeta h2 { text-transform: capitalize; }
+
+.numero { color: gray; }
